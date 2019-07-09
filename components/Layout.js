@@ -1,26 +1,30 @@
-function Layout(props) {
-  return (
-    <div className="page-layout">
-      {props.children}
-      <style jsx global>{`
-        body {
-          margin: 0;
-          padding: 0;
-          font-size: 18px;
-          font-weight: 400;
-          line-height: 1.8;
-          color: #333;
-          font-family: sans-serif;
-        }
-        h1 {
-          font-weight: 700;
-        }
-        p {
-          margin-bottom: 10px;
-        }
-      `}</style>
-    </div>
-  )
-}
+import Header from './Header';
+import Footer from './Footer';
 
-export default Layout
+const layoutStyle = {
+  
+};
+
+const Layout = props => (
+  <section style={layoutStyle}>
+    <Header />
+    {props.children}
+    <Footer />
+    <style jsx global>{`
+      body {
+        background-color: #ffe9f9;
+        margin: 0;
+        font-size: 18px;
+      }
+      :root {
+        --header-background-colour: yellow;
+        --link-colour-main: red;
+        --link-hover-bck-main: purple;
+        --main-font: Arial;
+      }
+
+    `}</style>
+  </section>
+);
+
+export default Layout;

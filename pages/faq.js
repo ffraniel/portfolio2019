@@ -1,5 +1,12 @@
-function Faq () {
-  return <div>FAQ</div>;
-}
+import Layout from '../components/Layout';
 
-export default Faq;
+function Faq () {
+  return (
+    <Layout>
+      <p>Faq</p>
+      <style jsx>{``}</style>
+    </Layout>
+  );
+};
+
+export default Faq

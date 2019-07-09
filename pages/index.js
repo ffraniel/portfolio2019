@@ -1,13 +1,13 @@
-const Home = ()  => (
-  <section className="home">
-    <h1>Fran The Web Dev</h1>
-    <style jsx>{`
-    a {
-      text-decoration: none;
-    }
-  `}</style>
-  </section>
-);
+import Layout from '../components/Layout.js';
+import Table from '../components/Table';
 
+function Index () {
+  return (
+    <Layout>
+      <p>Hello Next.js</p>
+      <Table />
+    </Layout>
+  );
+};
 
-export default Home;
+export default Index;
