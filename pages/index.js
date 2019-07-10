@@ -1,11 +1,19 @@
 import Layout from '../components/Layout.js';
+import Jumbo from '../components/Jumbo';
 import Table from '../components/Table';
 
 function Index () {
   return (
     <Layout>
-      <p>Hello Next.js</p>
-      <Table />
+      <main className="home">
+        <Jumbo />
+        <Table />
+      </main>
+      <style jsx>{`
+        .home {
+          color: var(--main-text-colour);
+        }
+      `}</style>
     </Layout>
   );
 };

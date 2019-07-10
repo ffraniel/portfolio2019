@@ -13,6 +13,7 @@ const Table = () => (
     }
     .table h1 {
       box-shadow: var(--shadow-medium);
+      color: var(--main-text-colour);
     }
       `}</style>
   </section>

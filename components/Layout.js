@@ -26,6 +26,10 @@ const Layout = props => (
         --shadow-large: 0 30px 60px rgba(0,0,0,0.12);
         --header-background-colour: #bfa3bf;
         --footer-background-colour: #bfa3bf;
+        --main-text-colour: #484848;
+        --soft-radius: 5px;
+        --text-shadow: 1px 1px 3px #424344;
+        --button-padding: 10px 20px;
       }
 
     `}</style>
