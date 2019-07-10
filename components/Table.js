@@ -7,9 +7,12 @@ const Table = () => (
     .table {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      max-width: 80%;
+      margin: 0 auto;
+      grid-gap: 10px;
     }
     .table h1 {
-      border: solid 2px red;
+      box-shadow: var(--shadow-medium);
     }
       `}</style>
   </section>

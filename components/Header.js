@@ -36,7 +36,7 @@ const Header = () => {
     <style jsx>{`
       .header {
         background-color: var(--header-background-colour);
-        color: yellow;
+        color: var(--header-background-colour);
         min-height: 80px;
         font-family: var(--main-font);
       }
