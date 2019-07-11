@@ -1,10 +1,23 @@
 import Layout from '../components/Layout';
+import CTA from '../components/CTA';
 
 function Faq () {
   return (
     <Layout>
-      <p>Faq</p>
-      <style jsx>{``}</style>
+      <section className="faq">
+        <h1>Faq</h1>
+      </section>
+      <CTA />
+      <style jsx>{`
+      .faq {
+        padding: var(--section-padding);
+        font-family: var(--main-font);
+        color: var(--main-text-colour);
+      }
+       .faq h1 {
+        text-align: center;
+       }
+       `}</style>
     </Layout>
   );
 };
