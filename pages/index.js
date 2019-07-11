@@ -5,6 +5,7 @@ import KeyDetails from '../components/KeyDetails';
 import LeftImageBlock from '../components/LeftImageBlock';
 import HeadingImageBlock from '../components/HeadingImageBlock';
 import GoFaq from '../components/GoFaq';
+import CTA from '../components/CTA';
 
 function Index () {
   return (
@@ -14,8 +15,9 @@ function Index () {
         <KeyDetails />
         <LeftImageBlock />
         <Table />
-        <GoFaq />
         <HeadingImageBlock />
+        <GoFaq />
+        <CTA />
       </main>
       <style jsx>{`
         .home {

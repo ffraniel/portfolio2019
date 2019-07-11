@@ -31,6 +31,15 @@ const Layout = props => (
         --section-padding: 120px 0;
         --bd: solid red 2px;
       }
+      .basic-button {
+        padding: var(--button-padding);
+        background-color: white;
+        color: var(--main-text-colour);
+        border-radius: var(--soft-radius);
+        border: none;
+        box-shadow: var(--shadow-small);
+        font-size: 1rem;
+      }
 
     `}</style>
   </section>

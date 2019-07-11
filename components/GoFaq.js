@@ -6,12 +6,14 @@ const GoFaq = () => {
       <h2>Any more questions?</h2>
       <h3>Visit our Faq for more infomation</h3>
       <Link href={"/faq"} as={"/faq"}>
-        <button>FAQ</button>
+        <button className="basic-button">FAQ</button>
       </Link>
       <style jsx>{`
         .go-faq {
           padding: var(--section-padding);
           text-align: center;
+          background-color: #868383;
+          color: white;
         }
 
       `}</style>

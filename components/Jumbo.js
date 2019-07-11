@@ -4,7 +4,7 @@ const Jumbo = () => (
   <section className="jumbo">
     <h2>JUMBOTRON</h2>
     <Link href={"/products"} as={"/products"} >
-      <button>Get Your Website Now!</button>
+      <button className="basic-button">Get Your Website Now!</button>
     </Link>
     <style jsx>{`
       .jumbo {
@@ -13,13 +13,6 @@ const Jumbo = () => (
         padding: var(--section-padding);
         background-color: #9bada4;
         text-shadow: var(--text-shadow);
-      }
-      button {
-        border: none;
-        border-radius: var(--soft-radius);
-        padding: var(--button-padding);
-        box-shadow: var(--shadow-small);
-        background-color: white;
       }
     `}</style>
   </section>
