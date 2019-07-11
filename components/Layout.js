@@ -43,6 +43,10 @@ const Layout = props => (
         box-shadow: var(--shadow-small);
         font-size: 1rem;
       }
+      .eighty {
+        width: 80%;
+        margin: 0 auto;
+      }
 
     `}</style>
   </section>

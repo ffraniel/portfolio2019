@@ -2,6 +2,7 @@ import Layout from '../components/Layout';
 import Table from '../components/Table';
 import ProductsHeadline from '../components/ProductsHeadline';
 import Ecommerce from '../components/Ecommerce';
+import Wordpress from '../components/Wordpress';
 
 function Products() {
   return (
@@ -9,6 +10,7 @@ function Products() {
       <ProductsHeadline />
       <Table />
       <Ecommerce />
+      <Wordpress />
       <style jsx>{``}</style>
     </Layout>
   );
