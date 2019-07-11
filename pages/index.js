@@ -3,6 +3,7 @@ import Jumbo from '../components/Jumbo';
 import Table from '../components/Table';
 import KeyDetails from '../components/KeyDetails';
 import LeftImageBlock from '../components/LeftImageBlock';
+import HeadingImageBlock from '../components/HeadingImageBlock';
 
 function Index () {
   return (
@@ -12,6 +13,7 @@ function Index () {
         <KeyDetails />
         <LeftImageBlock />
         <Table />
+        <HeadingImageBlock />
       </main>
       <style jsx>{`
         .home {
