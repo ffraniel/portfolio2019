@@ -32,6 +32,7 @@ const Layout = props => (
         --button-padding: 10px 20px;
         --header-footer-margin: 5px;
         --section-padding: 120px 0;
+        --bd: solid red 2px;
       }
 
     `}</style>
