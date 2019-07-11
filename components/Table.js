@@ -23,7 +23,7 @@ const Table = () => (
         <h5>Managed Hosting</h5>
       </section>
       <section>
-        <h5>Hosting Price - maintenance and support</h5>
+        <h5>Hosting Maintenance</h5>
       </section>
       <section>
         <h5>Monitoring</h5>
@@ -58,7 +58,7 @@ const Table = () => (
         <h6>-</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>-</h6>
       </section>
       <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
@@ -70,7 +70,7 @@ const Table = () => (
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
+        <h6>£30 p/month</h6>
       </section>
       <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
@@ -82,13 +82,13 @@ const Table = () => (
         <h6>Available</h6>
       </section>
       <section>
-      <h6>2 hours</h6>
+        <h6>2 hours</h6>
       </section>
       <section>
-        <h6>Available</h6>
+        <h6>£200</h6>
       </section>
       <section>
-        <h6>Available</h6>
+        <h6>£200</h6>
       </section>
       <section>
         <h6>Available</h6>
@@ -108,7 +108,7 @@ const Table = () => (
         <h6>Bespoke Design</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>-</h6>
       </section>
       <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
@@ -120,7 +120,7 @@ const Table = () => (
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
+        <h6>£60 p/month</h6>
       </section>
       <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
@@ -135,10 +135,10 @@ const Table = () => (
         <h6>4 hours</h6>
       </section>
       <section>
-        <h6>Available</h6>
+        <h6>£200</h6>
       </section>
       <section>
-        <h6>Available</h6>
+        <h6>£200</h6>
       </section>
       <section>
         <h6>Available</h6>
@@ -172,7 +172,7 @@ const Table = () => (
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
+        <h6>£60 p/month</h6>
       </section>
       <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
@@ -187,10 +187,10 @@ const Table = () => (
         <h6>4 hours</h6>
       </section>
       <section>
-        <h6>Available</h6>
+        <h6>£200</h6>
       </section>
       <section>
-        <h6>Available</h6>
+        <h6>£200</h6>
       </section>
       <section>
         <h6>Available</h6>
