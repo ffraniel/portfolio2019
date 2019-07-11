@@ -1,12 +1,14 @@
 import Layout from '../components/Layout.js';
 import Jumbo from '../components/Jumbo';
 import Table from '../components/Table';
+import KeyDetails from '../components/KeyDetails';
 
 function Index () {
   return (
     <Layout>
       <main className="home">
         <Jumbo />
+        <KeyDetails />
         <Table />
       </main>
       <style jsx>{`

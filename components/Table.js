@@ -14,6 +14,7 @@ const Table = () => (
     .table h1 {
       box-shadow: var(--shadow-medium);
       color: var(--main-text-colour);
+      text-align: center;
     }
       `}</style>
   </section>

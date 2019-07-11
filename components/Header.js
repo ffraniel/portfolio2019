@@ -45,7 +45,7 @@ const Header = () => {
         color: var(--link-colour-main);
         background-color: #f5efef00;
         transition: background-color 0.25s;
-        margin: 5px;
+        margin: var(--header-footer-margin);
       }
       .header a:hover {
         background-color: var(--link-hover-bck-main);

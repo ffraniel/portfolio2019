@@ -10,7 +10,7 @@ const Jumbo = () => (
       .jumbo {
         text-align: center;
         color: var(-main-text-colour);
-        padding: 120px 0;
+        padding: var(--section-padding);
         background-color: #9bada4;
         text-shadow: var(--text-shadow);
       }

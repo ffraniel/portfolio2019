@@ -9,6 +9,7 @@ const Footer = () => (
       }
       h2 {
         color: white;
+        margin: var(--header-footer-margin);
       }
     `}</style>
   </footer>

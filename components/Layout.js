@@ -30,6 +30,8 @@ const Layout = props => (
         --soft-radius: 5px;
         --text-shadow: 1px 1px 3px #424344;
         --button-padding: 10px 20px;
+        --header-footer-margin: 5px;
+        --section-padding: 120px 0;
       }
 
     `}</style>
