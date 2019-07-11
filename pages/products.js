@@ -3,6 +3,7 @@ import Table from '../components/Table';
 import ProductsHeadline from '../components/ProductsHeadline';
 import Ecommerce from '../components/Ecommerce';
 import Wordpress from '../components/Wordpress';
+import CTA from '../components/CTA';
 
 function Products() {
   return (
@@ -11,6 +12,7 @@ function Products() {
       <Table />
       <Ecommerce />
       <Wordpress />
+      <CTA />      
       <style jsx>{``}</style>
     </Layout>
   );
