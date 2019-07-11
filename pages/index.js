@@ -4,6 +4,7 @@ import Table from '../components/Table';
 import KeyDetails from '../components/KeyDetails';
 import LeftImageBlock from '../components/LeftImageBlock';
 import HeadingImageBlock from '../components/HeadingImageBlock';
+import GoFaq from '../components/GoFaq';
 
 function Index () {
   return (
@@ -13,6 +14,7 @@ function Index () {
         <KeyDetails />
         <LeftImageBlock />
         <Table />
+        <GoFaq />
         <HeadingImageBlock />
       </main>
       <style jsx>{`

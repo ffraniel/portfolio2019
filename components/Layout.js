@@ -1,12 +1,8 @@
 import Header from './Header';
 import Footer from './Footer';
 
-const layoutStyle = {
-  
-};
-
 const Layout = props => (
-  <section style={layoutStyle}>
+  <section>
     <Header />
     {props.children}
     <Footer />
