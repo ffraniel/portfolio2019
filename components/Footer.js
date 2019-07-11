@@ -22,6 +22,7 @@ const Footer = () => (
       as={"/faq"}>
       <a>FAQ</a>
     </Link>
+    <h5 className="phone">Phone: 08771 746 863</h5>
     <style jsx>{`
       .footer {
         width: 100%;
@@ -40,6 +41,10 @@ const Footer = () => (
       }
       .footer a:hover {
         background: var(--link-hover-bck-main);
+      }
+      .phone {
+        color: var(--main-text-colour);
+        font-size: 1rem;
       }
     `}</style>
   </footer>
