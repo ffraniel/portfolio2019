@@ -1,7 +1,7 @@
 const Table = () => (
   <section className="table">
     <section className="headings">
-      <section className="product-row">
+      <section className="product-column">
         <h5></h5>
       </section>
       <section>
@@ -47,149 +47,160 @@ const Table = () => (
         <h5>Materials/Content Cost</h5>
       </section>
     </section>
-    <section className="columns">
-    <section className="product-row">
-        <h5>small site</h5>
+    <section className="columns site-option-column">
+      <section className="product-column">
+        <h5>Simple</h5>
+      </section>
+      <section>
+        <h6>1-5</h6>
+      </section>
+      <section>
+        <h6>-</h6>
       </section>
       <section>
         <h6>x</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+      <h6>2 hours</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
-      <section>
-        <h6>x</h6>
-      </section>
-      <section>
-        <h6>x</h6>
+      <section className="link-button-container">
+        <button className="basic-button button-spacer">SELECT THIS</button>
       </section>
     </section>
-    <section className="columns">
-    <section className="product-row">
-        <h5>medium site</h5>
+    <section className="columns site-option-column">
+      <section className="product-column">
+        <h5>Regular</h5>
+      </section>
+      <section>
+        <h6>6-10</h6>
+      </section>
+      <section>
+        <h6>Bespoke Design</h6>
       </section>
       <section>
         <h6>x</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>4 hours</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
-      <section>
-        <h6>x</h6>
-      </section>
-      <section>
-        <h6>x</h6>
+      <section className="link-button-container">
+        <button className="basic-button button-spacer">SELECT THIS</button>
       </section>
     </section>
-    <section className="columns">
-    <section className="product-row">
-        <h5>large site</h5>
+    <section className="columns site-option-column">
+      <section className="product-column">
+        <h5>Mighty</h5>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>11+</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Bespoke Design</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>
+          <img src="static/tick.png" alt="tick" />
+        </h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>4 hours</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
       </section>
       <section>
-        <h6>x</h6>
+        <h6>Available</h6>
+      </section>
+      <section className="link-button-container">
+        <button className="basic-button button-spacer">SELECT THIS</button>
       </section>
     </section>
     <section className="columns details-column">
-    <section className="product-row">
+      <section className="product-column">
         <h5></h5>
       </section>
       <section>
@@ -208,16 +219,24 @@ const Table = () => (
         <p>Search Engine Optimisation - so your site appears high in Google search results. We would never release your site into the wild without implementing SEO best practices throughout.</p>
       </section>
       <section>
+        <p></p>
+      </section>
+      <section>
+        <p></p>
+      </section>
+      <section>
+        <p>Keep up to date with how much traffic you are recieving</p>
+      </section>
+      <section>
         <p>Always: in web development there will always be bugs. Thankfully they are usually small and resolveable. We use a system of services to watch for any errors the human eye may miss in order to maintain quality throughout.</p>
       </section>
       <section>
         <p>For updates to content, design changes or to help you achieve your SEO goals</p>
       </section>
       <section>
-        <p>Keep up to date with how much traffic you are recieving</p>
-      </section>
-      <section>
-        <p>Ultimately you need to be happy with the website you receive.</p>
+        <p>
+        Ultimately you need to be happy with the website you receive. If you need further work after these hours are used we have a retainer service available.
+        </p>
       </section>
       <section>
         <p></p>
@@ -228,44 +247,50 @@ const Table = () => (
       <section>
         <p>If we need to purchase some stock photography this will be agreed as and when required unless we are providing the content</p>
       </section>
-      <section>
-        <p></p>
-      </section>
-      <section>
-        <p>x</p>
-      </section>
     </section>
     <style jsx>{`
     .table {
       padding: var(--half-section-padding);
       display: grid;
-      grid-template-columns: minmax(auto, 300px) repeat(3, 150px) minmax(300px, auto);
+      grid-template-columns: minmax(100px, 200px) repeat(3, 150px) minmax(200px, auto);
+      grid-gap: 20px;
       max-width: 80%;
       margin: 0 auto;
       color: var(--main-text-colour);
       font-family: var(--main-font);
     }
     .headings {
-      border: solid red 1px;
     }
     .headings section {
       text-align: center;
     }
     .columns {
-      border: solid green 1px;
       text-align: center;
     }
     .headings section, .columns section {
-      height: 100px;
-      border: 0.25px black solid;
+      min-height: 80px;
+      border-bottom: 0.5px #847f8126 solid;
+      border-top: 0.25px #ffffff00 solid;
     }
     .details-column p {
-      font-size: 14px;
-      padding: 2px 30px;
+      font-size: 12px;
+      padding: 2px 20px;
     }
-    .product-row {
+    .product-column {
     }
-
+    .button-spacer {
+      padding: 7.5px 15px;
+      margin: 15px 0;
+    }
+    .site-option-column {
+      box-shadow: var(--shadow-medium);
+    }
+    .link-button-container {
+      border: none;
+    }
+    img {
+      height: 20px;
+    }
 
     `}</style>
   </section>
