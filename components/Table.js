@@ -94,7 +94,7 @@ const Table = () => (
         <h6>Available</h6>
       </section>
       <section className="link-button-container">
-        <button className="basic-button button-spacer">SELECT THIS</button>
+        <button className="basic-button button-spacer">Choose Simple</button>
       </section>
     </section>
     <section className="columns site-option-column">
@@ -144,7 +144,7 @@ const Table = () => (
         <h6>Available</h6>
       </section>
       <section className="link-button-container">
-        <button className="basic-button button-spacer">SELECT THIS</button>
+        <button className="basic-button button-spacer">Choose Regular</button>
       </section>
     </section>
     <section className="columns site-option-column">
@@ -196,7 +196,7 @@ const Table = () => (
         <h6>Available</h6>
       </section>
       <section className="link-button-container">
-        <button className="basic-button button-spacer">SELECT THIS</button>
+        <button className="basic-button button-spacer">Choose Mighty</button>
       </section>
     </section>
     <section className="columns details-column">
@@ -281,6 +281,7 @@ const Table = () => (
     .button-spacer {
       padding: 7.5px 15px;
       margin: 15px 0;
+      font-size: 0.85rem;
     }
     .site-option-column {
       box-shadow: var(--shadow-medium);

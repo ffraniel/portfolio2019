@@ -36,6 +36,7 @@ const HowItWorks = () => (
       }
       .how-image img {
         width: 400px;
+        border-radius: var(--very-soft-radius);
       }
     `}</style>
   </section>

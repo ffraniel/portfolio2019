@@ -1,7 +1,11 @@
 const Retainers = () => (
   <section className="retainer">
     <h2>Retainers</h2>
-    <p>Songs fall in a few categories. There are two covers, with prominent Hutchinson vocals: “Life Is a Circus,” written by Roger Bunn, and Lesley Duncan’s “Love Song,” which paid far more dividends for Duncan (a Bowie intimate and fellow UFO enthusiast) when Elton John covered it on Tumbleweed Connection. “She’s very underrated,” Bowie notes before the take.</p>
+    <p>If you need to someone to manage your website we offer a retainer system. Maybe you want to purchase hours so we can manage updating the site to coincide with new product launches, for instance.</p>
+    <h4>4 Hours £120 per month</h4>
+    <h4>8 Hours £200 per month</h4>
+    <h4>12 Hours £240 per month</h4>
+    <p>All available in blocks of three months</p>  
 
     <style jsx>{`
       .retainer {
