@@ -28,6 +28,7 @@ const Layout = props => (
         --footer-background-colour: #bfa3bf;
         --main-text-colour: #484848;
         --soft-radius: 5px;
+        --very-soft-radius: 2.5px;
         --text-shadow: 1px 1px 3px #424344;
         --button-padding: 10px 20px;
         --header-footer-margin: 5px;

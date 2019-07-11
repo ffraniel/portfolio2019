@@ -26,6 +26,16 @@ const LeftImageBlock = () => {
         }
         .image-block section img {
           height: 350px;
+          transform: translate(120px, 0);
+          border-radius: var(--very-soft-radius);
+          border: none;
+        }
+        .image-block section p {
+          transform: translate(-120px, 0);
+          background-color: white;
+          box-shadow: var(--shadow-large);
+          padding: 40px 50px;
+          border-radius: var(--very-soft-radius);
         }
       `}</style>
     </section>
