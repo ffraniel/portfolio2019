@@ -12,8 +12,9 @@ const GoFaq = () => {
         .go-faq {
           padding: var(--section-padding);
           text-align: center;
-          background-color: #868383;
-          color: white;
+          background-color: var(--alt-background-colour);
+          color: var(--alt-text-colour);
+          font-family: var(--main-font);
         }
 
       `}</style>

@@ -29,6 +29,9 @@ const Layout = props => (
         --button-padding: 10px 20px;
         --header-footer-margin: 5px;
         --section-padding: 120px 0;
+        --half-section-padding: 60px 0;
+        --alt-background-colour: #868383;
+        --alt-text-colour: white;
         --bd: solid red 2px;
       }
       .basic-button {

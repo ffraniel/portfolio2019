@@ -29,6 +29,7 @@ const Footer = () => (
         background-color: #bfa3bf;
         height: 80px;
         display: flex;
+        font-family: var(--main-font);
       }
       .footer a {
         color: white;

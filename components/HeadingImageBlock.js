@@ -27,6 +27,7 @@ const HeadingImageBlock = () => {
           width: 80%;
           margin: 0 auto;
           padding: var(--section-padding);
+          font-family: var(--main-font);
           border: solid 2px black;
         }
         .heading-image-block--text {

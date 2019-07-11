@@ -1,10 +1,11 @@
 import Layout from '../components/Layout';
 import Table from '../components/Table';
+import ProductsHeadline from '../components/ProductsHeadline';
 
 function Products() {
   return (
     <Layout>
-      <p>Products</p>
+      <ProductsHeadline />
       <Table />
       <style jsx>{``}</style>
     </Layout>

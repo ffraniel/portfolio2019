@@ -28,6 +28,7 @@ const KeyDetails = () => (
         width: 85%;
         margin: 0 auto;
         padding: var(--section-padding);
+        font-family: var(--main-font);
       }
       .details-box {
         text-align: center;

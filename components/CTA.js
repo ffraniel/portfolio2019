@@ -11,6 +11,8 @@ const CTA = () => {
         .CTA {
           padding: var(--section-padding);
           text-align: center;
+          color: var(--main-text-colour);
+          font-family: var(--main-font);
         }
 
       `}</style>

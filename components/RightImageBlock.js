@@ -17,6 +17,7 @@ const RightImageBlock = () => {
           display: grid;
           grid-template-columns: 1fr 1fr;
           padding: var(--section-padding);
+          font-family: var(--main-font);
         }
         .image-block section {
           text-align: center;

@@ -8,6 +8,7 @@ const Jumbo = () => (
     </Link>
     <style jsx>{`
       .jumbo {
+        font-family: var(--main-font);
         text-align: center;
         color: var(-main-text-colour);
         padding: var(--section-padding);

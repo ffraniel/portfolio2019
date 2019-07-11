@@ -237,12 +237,13 @@ const Table = () => (
     </section>
     <style jsx>{`
     .table {
-      padding: var(--section-padding);
+      padding: var(--half-section-padding);
       display: grid;
       grid-template-columns: minmax(auto, 300px) repeat(3, 150px) minmax(300px, auto);
       max-width: 80%;
       margin: 0 auto;
       color: var(--main-text-colour);
+      font-family: var(--main-font);
     }
     .headings {
       border: solid red 1px;
