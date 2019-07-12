@@ -7,6 +7,9 @@ const Layout = props => (
     {props.children}
     <Footer />
     <style jsx global>{`
+      html {
+        scroll-behavior: smooth;
+      }
       body {
         background-color: #ffe9f9;
         margin: 0;

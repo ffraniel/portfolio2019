@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Layout from "../components/Layout";
 
 function Simple() {
@@ -15,6 +15,17 @@ function Simple() {
   const showVideo = () => {
     setVideoShowing(true);
   }
+
+  const useScroll = () => {
+    const ref = useRef(null);
+    const executeScroll = () => {
+        window.scrollTo(0, ref.current.offsetTop);
+    }
+    const htmlElementAttributes = {ref};
+    return [executeScroll, htmlElementAttributes]
+  }
+
+  const [executeScroll, scrollHtmlAttributes] = useScroll();
 
   return (
     <Layout>
@@ -63,9 +74,9 @@ function Simple() {
           <video loop autoPlay muted playsinline onCanPlayThrough={()=>{showVideo()}} className={videoShowing ? 'show' : 'hide'}>
             <source src="static/vscodeVideo(compressed).mp4" type="video/mp4" />
           </video>
-          <img className="downward-arrow" src="static/downward.png" alt="downward arrow" />
+          <img className="downward-arrow" src="static/downward.png" alt="downward arrow" onClick={executeScroll} />
         </section>
-        <form id="form">
+        <form {...scrollHtmlAttributes}>
           <p>the form</p>
           <input
             type="text"
@@ -111,13 +122,13 @@ function Simple() {
         }
         .video-background {
           background: url("static/vscodevideo.jpg");
-          background: yellow;
+          background-repeat: no-repeat;
+          background-position: center; 
+          background-size: 100vw 500px;
           position: relative;
           overflow: hidden;
-          height: 450px;
+          height: 350px;
           text-align: center;
-          width: 120%;
-          transform: translate(-120px, 0);
         }
         .video-background .downward-arrow {
           border-radius: 50%;
@@ -135,6 +146,7 @@ function Simple() {
         .video-background video {
           display: block;
           width: 100%;
+          transform: scale(1.8);
         }
         .temporary-video-image {
           width: 100%;
