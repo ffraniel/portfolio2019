@@ -47,6 +47,40 @@ const Layout = props => (
         width: 80%;
         margin: 0 auto;
       }
+      .link-button {
+        text-decoration: none;
+      }
+      .product-jumbo {
+        padding: var(--section-padding);
+        text-align: center;
+      }
+      .product-overview-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: var(--half-section-padding);
+      }
+      .product-text p {
+        text-align: left;
+      }
+      .product-overview-container section {
+        padding: 0 20px;
+      }
+      .product-overview-container section {
+        text-align: center;
+      }
+      .display-overlap-A {
+        transform: translate(125px, 0) scale(1.75);
+      }
+      .display-overlap-B {
+        transform: translate(-125px, 0) scale(1.1);
+      }
+      .product-overview-image img {
+        border-radius: var(--very-soft-radius);
+      }
+      .product-overview-image img {
+        width: 350px;
+      }
 
     `}</style>
   </section>
