@@ -1,6 +1,6 @@
 const Wordpress = () => (
-  <section className="wordpress">
-    <section className="wordpress-image-container eighty">
+  <section className="wordpress eighty">
+    <section className="wordpress-image-container">
       <img src="static/ecommerce-image.jpg" alt="ecommerce site on a laptop screen" />
     </section>
     <section className="eighty">
@@ -15,6 +15,8 @@ const Wordpress = () => (
         padding: var(--half-section-padding);
         background-color: var(--alt-background-colour);
         color: var(--alt-text-colour);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
       }
       .wordpress p {}
       .wordpress-image-container {
