@@ -35,6 +35,7 @@ const Layout = props => (
         --half-section-padding: 60px 0;
         --alt-background-colour: #868383;
         --alt-text-colour: white;
+        --positive-green: #26ff9b;
         --bd: solid red 2px;
       }
       .basic-button {

@@ -1,15 +1,26 @@
 import { useState, useRef } from "react";
 import Layout from "../components/Layout";
+import useInputValue from "../components/hooks/useInputValue.js";
 
 function Simple() {
-  const [name, setName] = useState(null);
-  const [email, setEmail] = useState(null);
-  const [phone, setPhone] = useState(null);
-  const [notes, setNotes] = useState(null);
+  const name = useInputValue("");
+  const phone = useInputValue("");
+  const email = useInputValue("");
+  const notes = useInputValue("");
   const [videoShowing, setVideoShowing] = useState(false);
+  const [showForm, setShowForm] = useState(true);
 
-  const handleChange = input => {
-    console.log(input);
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    const form = {
+      name: name.value,
+      email: email.value,
+      phone: phone.value,
+      notes: notes.value
+    };
+
+    setShowForm(false);
   };
   
   const showVideo = () => {
@@ -32,7 +43,7 @@ function Simple() {
       <section className="simple">
         <section className="product-jumbo">
           <h1>Simple Site</h1>
-          <a href="#form" className="basic-button link-button">
+          <a href="#form" onClick={executeScroll} className="basic-button link-button">
             Get Your Website Now!
           </a>
         </section>
@@ -71,46 +82,28 @@ function Simple() {
           </section>
         </section>
         <section className="video-background">
-          <video loop autoPlay muted playsinline onCanPlayThrough={()=>{showVideo()}} className={videoShowing ? 'show' : 'hide'}>
+          <video loop autoPlay muted playsInline onCanPlayThrough={()=>{showVideo()}} className={videoShowing ? 'show' : 'hide'}>
             <source src="static/vscodeVideo(compressed).mp4" type="video/mp4" />
           </video>
           <img className="downward-arrow" src="static/downward.png" alt="downward arrow" onClick={executeScroll} />
         </section>
-        <form {...scrollHtmlAttributes}>
-          <p>the form</p>
-          <input
-            type="text"
-            title="name"
-            value={name}
-            onChange={() => {
-              handleChange(name);
-            }}
-          />
-          <input
-            type="text"
-            title="number"
-            value={phone}
-            onChange={() => {
-              handleChange(phone);
-            }}
-          />
-          <input
-            type="text"
-            title="email"
-            value={email}
-            onChange={() => {
-              handleChange(email);
-            }}
-          />
-          <input
-            type="text"
-            title="notes"
-            value={notes}
-            onChange={() => {
-              handleChange(notes);
-            }}
-          />
-        </form>
+        <section className="form-container">
+          <h2>Contact us</h2>
+          {showForm &&  
+            <form {...scrollHtmlAttributes} onSubmit={handleFormSubmit}>
+              <label htmlFor="name" >Name</label>
+              <input className="text-input" type="text" name="name" {...name} />
+              <label htmlFor="phone">Phone</label>
+              <input className="text-input" type="text" name="phone" {...phone} />
+              <label htmlFor="email">Email</label>
+              <input className="text-input" type="text" title="email" {...email}/>
+              <label htmlFor="notes">Notes</label>
+              <input className="text-input" type="textarea" title="notes" {...notes} />
+              <input className="basic-button submit-button" type="submit" value="Submit" />
+            </form>
+          }
+          {!showForm && <h2>Thanks for getting in touch {name.value}, we'll be in contact shortly!</h2>}
+        </section>
       </section>
       <style jsx>{`
         .simple {
@@ -159,6 +152,36 @@ function Simple() {
         }
         video.hide {
           display: none;
+        }
+        .form-container {
+          padding: var(--section-padding);
+          text-align: center;
+          color: var(--main-text-colour);
+        }
+        form {
+          width: 80%;
+          margin: 0 auto;
+          text-align: center;
+        }
+        form input {
+          width: 80%;
+          border: white solid 3px;
+          min-height: 1.75rem;
+          border-radius: var(--soft-radius);
+          font-size: 22px;
+          font-color: white;
+        }
+        .text-input {
+          background-color: #ecb4e500;
+          margin: 10px;
+        }
+        label {
+          display: block;
+        }
+        .submit-button {
+          display: block;
+          margin: 20px auto;
+          background-color: var(--positive-green);
         }
       `}</style>
     </Layout>
