@@ -1,8 +1,10 @@
 const Ecommerce = () => (
   <section className="ecommerce">
     <section className="eighty">
-      <h2>Eccomerce Section about</h2>
-      <p>Songs fall in a few categories. There are two covers, with prominent Hutchinson vocals: “Life Is a Circus,” written by Roger Bunn, and Lesley Duncan’s “Love Song,” which paid far more dividends for Duncan (a Bowie intimate and fellow UFO enthusiast) when Elton John covered it on Tumbleweed Connection. “She’s very underrated,” Bowie notes before the take.</p>
+      <h2>Ecommerce</h2>
+      <p>For artists or others who will sell a small range of products or services we can build custom bespoke services. This allows us to keep costs down for you the customer though require a little more upfront developement.</p>
+      <p>For larger businesses with considerable itenaries we use Shopify, a tested and true service used by thousands of major eccomerce businessses.</p>
+      <p>With Shopify we ask that you pay the Shopify platform cost of £79 per month and we work on your site within the service</p>
     </section>
     <section className="ecommerce-image-container">
       <img src="static/ecommerce-image.jpg" alt="ecommerce site on a laptop screen" />
