@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Table = () => (
   <section className="table">
     <section className="headings">
@@ -11,12 +13,6 @@ const Table = () => (
         <h5>Designs</h5>
       </section>
       <section>
-        <h5>Login System</h5>
-      </section>
-      <section>
-        <h5>Editable By Owner</h5>
-      </section>
-      <section>
         <h5>SEO</h5>
       </section>
       <section>
@@ -26,25 +22,19 @@ const Table = () => (
         <h5>Hosting Maintenance</h5>
       </section>
       <section>
+        <h5>Social Media Integration (Twitter, Instagram etc.)</h5>
+      </section>
+      <section>
         <h5>Monitoring</h5>
       </section>
       <section>
         <h5>Bug Fixes</h5>
       </section>
       <section>
-        <h5>Retainer</h5>
-      </section>
-      <section>
         <h5>Revisions post launch</h5>
       </section>
       <section>
-        <h5>Email Campaigns Systems</h5>
-      </section>
-      <section>
-        <h5>Google Adwords Integration</h5>
-      </section>
-      <section>
-        <h5>Materials/Content Cost</h5>
+        <h5>Retainer</h5>
       </section>
     </section>
     <section className="columns site-option-column">
@@ -58,12 +48,6 @@ const Table = () => (
         <h6>-</h6>
       </section>
       <section>
-        <h6>-</h6>
-      </section>
-      <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
-      </section>
-      <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
@@ -73,29 +57,23 @@ const Table = () => (
         <h6>£30 p/month</h6>
       </section>
       <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
+        <h6>£50</h6>
+      </section>
+      <section>
+        <h6>x</h6>
       </section>
       <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>Available</h6>
-      </section>
-      <section>
-        <h6>2 hours</h6>
-      </section>
-      <section>
-        <h6>£200</h6>
-      </section>
-      <section>
-        <h6>£200</h6>
+        <h6>4 hours of revisions free</h6>
       </section>
       <section>
         <h6>Available</h6>
       </section>
-      <section className="link-button-container">
-        <button className="basic-button button-spacer">Choose Simple</button>
-      </section>
+      <Link href="/simple" as="/simple">
+          <button className="basic-button button-spacer">Choose Simple</button>
+        </Link>
     </section>
     <section className="columns site-option-column">
       <section className="product-column">
@@ -108,12 +86,6 @@ const Table = () => (
         <h6>Bespoke Design</h6>
       </section>
       <section>
-        <h6>-</h6>
-      </section>
-      <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
-      </section>
-      <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
@@ -123,28 +95,24 @@ const Table = () => (
         <h6>£60 p/month</h6>
       </section>
       <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
+        <h6>£50</h6>
+      </section>
+      <section>
+        <h6>£40 p/month</h6>
       </section>
       <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>Available</h6>
-      </section>
-      <section>
-        <h6>4 hours</h6>
-      </section>
-      <section>
-        <h6>£200</h6>
-      </section>
-      <section>
-        <h6>£200</h6>
+        <h6>Four hours of revisions free</h6>
       </section>
       <section>
         <h6>Available</h6>
       </section>
       <section className="link-button-container">
-        <button className="basic-button button-spacer">Choose Regular</button>
+        <Link href="/regular" as="/regular">
+          <button className="basic-button button-spacer">Choose Regular</button>
+        </Link>
       </section>
     </section>
     <section className="columns site-option-column">
@@ -158,14 +126,6 @@ const Table = () => (
         <h6>Bespoke Design</h6>
       </section>
       <section>
-        <h6>
-          <img src="static/tick.png" alt="tick" />
-        </h6>
-      </section>
-      <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
-      </section>
-      <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
@@ -175,28 +135,24 @@ const Table = () => (
         <h6>£60 p/month</h6>
       </section>
       <section>
-        <h6><img src="static/tick.png" alt="tick" /></h6>
+        <h6>£50</h6>
+      </section>
+      <section>
+        <h6>£40 p/month</h6>
       </section>
       <section>
         <h6><img src="static/tick.png" alt="tick" /></h6>
       </section>
       <section>
-        <h6>Available</h6>
-      </section>
-      <section>
-        <h6>4 hours</h6>
-      </section>
-      <section>
-        <h6>£200</h6>
-      </section>
-      <section>
-        <h6>£200</h6>
+        <h6>4 hours of revisions free</h6>
       </section>
       <section>
         <h6>Available</h6>
       </section>
       <section className="link-button-container">
-        <button className="basic-button button-spacer">Choose Mighty</button>
+        <Link href="/mighty" as="/mighty">
+          <button className="basic-button button-spacer">Choose Mighty</button>
+        </Link>
       </section>
     </section>
     <section className="columns details-column">
@@ -210,12 +166,6 @@ const Table = () => (
         <p>Design is about more than what looks cool, it's the user experience (UX) and whether your users finds your site intuitive to use. You can leave this entirely to us or be involved.</p>
       </section>
       <section>
-        <p></p>
-      </section>
-      <section>
-        <p></p>
-      </section>
-      <section>
         <p>Search Engine Optimisation - so your site appears high in Google search results. We would never release your site into the wild without implementing SEO best practices throughout.</p>
       </section>
       <section>
@@ -225,10 +175,13 @@ const Table = () => (
         <p></p>
       </section>
       <section>
+        <p>Per Integration</p>
+      </section>
+      <section>
         <p>Keep up to date with how much traffic you are recieving</p>
       </section>
       <section>
-        <p>Always: in web development there will always be bugs. Thankfully they are usually small and resolveable. We use a system of services to watch for any errors the human eye may miss in order to maintain quality throughout.</p>
+        <p>Always: in web development there will always be bugs. We use a system of services to watch for any errors the human eye may miss in order to maintain quality throughout.</p>
       </section>
       <section>
         <p>For updates to content, design changes or to help you achieve your SEO goals</p>
@@ -237,15 +190,6 @@ const Table = () => (
         <p>
         Ultimately you need to be happy with the website you receive. If you need further work after these hours are used we have a retainer service available.
         </p>
-      </section>
-      <section>
-        <p></p>
-      </section>
-      <section>
-        <p></p>
-      </section>
-      <section>
-        <p>If we need to purchase some stock photography this will be agreed as and when required unless we are providing the content</p>
       </section>
     </section>
     <style jsx>{`
