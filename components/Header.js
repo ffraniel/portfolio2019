@@ -24,12 +24,12 @@ const Header = () => {
         <Link href={"/products"} as={"/products"}>
           <a onClick={()=>{toggleMenu()}}>Products</a>
         </Link>
-        <Link href={"/process"} as={"/process"}>
+        {/* <Link href={"/process"} as={"/process"}>
           <a onClick={()=>{toggleMenu()}}>Process</a>
         </Link>
         <Link href={"/faq"} as={"/faq"}>
           <a onClick={()=>{toggleMenu()}}>FAQ</a>
-        </Link>
+        </Link> */}
         <a onClick={()=>{toggleMenu()}} className="close-mob-nav">x</a>
       </section>
     </nav>

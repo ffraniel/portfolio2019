@@ -6,8 +6,9 @@ function Process() {
   return (
     <Layout>
       <main className="process">
-        <HowItWorks />
-        <WhyThisProcess />
+        {/* <HowItWorks />
+        <WhyThisProcess /> */}
+        <h3>Work in Progress</h3>
       </main>
       <style jsx>{``}</style>
     </Layout>

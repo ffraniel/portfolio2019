@@ -5,7 +5,8 @@ function Faq () {
   return (
     <Layout>
       <section className="faq">
-        <h1>Faq</h1>
+        {/* <h1>Faq</h1> */}
+        <h3>Work in Progress</h3>
       </section>
       <CTA />
       <style jsx>{`
