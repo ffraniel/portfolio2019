@@ -16,7 +16,7 @@ function Index () {
         <LeftImageBlock />
         <Table />
         <HeadingImageBlock />
-        <GoFaq />
+        {/* <GoFaq /> */}
         <CTA />
       </main>
       <style jsx>{`
