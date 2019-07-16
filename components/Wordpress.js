@@ -4,8 +4,9 @@ const Wordpress = () => (
       <img src="static/ecommerce-image.jpg" alt="ecommerce site on a laptop screen" />
     </section>
     <section className="eighty">
-      <h2>section about wordpress</h2>
-      <p>Other songs fall in a few categories. There are two covers, with prominent Hutchinson vocals: “Life Is a Circus,” written by Roger Bunn, and Lesley Duncan’s “Love Song,” which paid far more dividends for Duncan (a Bowie intimate and fellow UFO enthusiast) when Elton John covered it on Tumbleweed Connection. “She’s very underrated,” Bowie notes before the take.</p>
+      <h2>Do You Use Wordpress?</h2>
+      <p>We can, have and will. However, and this is crucial, we will only use Wordpress where it is the best tool for the job. Are you regularly updating the site? Do you need your team to be able to use Wordpress's interface to update your site? Then sure.</p> 
+      <p>However, for a static site or a web application WP introduces a lot of overhead that has the potential to be a risk to your business, not to mention the perfomance issues. The faster your site the less custom you lose.</p>
     </section>
 
     <style jsx>{`
