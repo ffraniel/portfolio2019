@@ -1,8 +1,8 @@
 const ProductsHeadline = () => {
   return (
     <section className="products-headline">
-      <h1>headline here</h1>
-      <p>The packaging mimics a promo kit from 1969: photo contact sheets and headshots of Bowie and Hutch, a few stapled pages of “typewritten” liner notes. But as with the other Bowie demo sets, it can’t shake looking like a cynical bid for the fan wallet.</p>
+      <h1>Products and Services</h1>
+      <p>We offer three primary products, Simple, Regular and Mighty. They all have their own baseline lists of features. However, we are entirely flexible and treat each project as unique. Think of these lists as a jumping-off point to helpus get closer to creating a web presence that suits your business.</p>
       <style jsx>{`
         .products-headline {
           text-align: center;
