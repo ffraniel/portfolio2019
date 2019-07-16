@@ -2,7 +2,7 @@ const ProductsHeadline = () => {
   return (
     <section className="products-headline">
       <h1>Products and Services</h1>
-      <p>We offer three primary products, Simple, Regular and Mighty. They all have their own baseline lists of features. However, we are entirely flexible and treat each project as unique. Think of these lists as a jumping-off point to helpus get closer to creating a web presence that suits your business.</p>
+      <p>We offer three primary products, <span>Simple</span>, <span>Regular</span> and <span>Mighty</span>. They all have their own baseline lists of features. However, we are entirely flexible and treat each project as unique. Think of these lists as a jumping-off point to help us get closer to creating a web presence that suits your business.</p>
       <style jsx>{`
         .products-headline {
           text-align: center;
@@ -11,14 +11,25 @@ const ProductsHeadline = () => {
           padding: var(--half-section-padding);
         }
         .products-headline h1 {
-          transform: translate(-150px, 0);
           text-align: center;
         }
         .products-headline p {
-          transform: translate(450px, 0);
-          width: 40%;
+          width: 460px;
+          margin: auto;
+          line-height: var(--big-lineheight);
         }
-      `}</style>
+        .products-headline p span {
+          color: var(--text-highlight);
+        }
+        @media screen and (max-width: 480px) {
+          .products-headline p {
+            width: 80%;
+            line-height: var(--small-lineheight);
+          }
+        }
+        
+       
+        `}</style>
     </section>
   );
 }

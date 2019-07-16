@@ -43,6 +43,7 @@ const Header = () => {
       .header a {
         text-decoration: none;
         color: var(--link-colour-main);
+        color: #ebf5ec;
         background-color: #f5efef00;
         transition: background-color 0.25s;
         margin: var(--header-footer-margin);

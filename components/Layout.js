@@ -42,6 +42,9 @@ const Layout = props => (
         --alt-text-colour: white;
         --positive-green: #26ff9b;
         --bd: solid red 2px;
+        --text-highlight: #ef5f4e;
+        --big-lineheight: 40px;
+        --small-lineheight: 30px;
       }
       .basic-button {
         padding: var(--button-padding);
