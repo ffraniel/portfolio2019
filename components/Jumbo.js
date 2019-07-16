@@ -13,7 +13,6 @@ const Jumbo = () => (
         color: var(-main-text-colour);
         padding: var(--section-padding);
         background-color: #9bada4;
-        text-shadow: var(--text-shadow);
       }
     `}</style>
   </section>

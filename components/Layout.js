@@ -1,8 +1,12 @@
 import Header from './Header';
 import Footer from './Footer';
+import Head from 'next/head';
 
 const Layout = props => (
   <section>
+    <Head>
+      <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet" />
+    </Head>
     <Header />
     {props.children}
     <Footer />
@@ -19,7 +23,8 @@ const Layout = props => (
         --header-background-colour: yellow;
         --link-colour-main: #ececec;
         --link-hover-bck-main: purple;
-        --main-font: Arial;
+        --main-font: 'DM Serif Text', serif;
+        // Arial;
         --shadow-small: 0 5px 10px rgba(0,0,0,0.12);
         --shadow-medium: 0 8px 30px rgba(0,0,0,0.12);
         --shadow-large: 0 30px 60px rgba(0,0,0,0.12);
