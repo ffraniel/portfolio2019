@@ -9,9 +9,13 @@ const Header = () => {
     setMenuStatus(!menuStatus);
   };
 
+  const handleScroll = () => {
+    console.log("we scrolling")
+  }
+
   return (
   <>
-    <nav className="header">
+    <nav className="header" onScroll={()=> {handleScroll()}}>
       <button className={menuStatus ? 'active' : ''} onClick={()=>{toggleMenu()}}>
         <div className="menu-line"></div>
         <div className="menu-line"></div>
@@ -39,14 +43,21 @@ const Header = () => {
         color: var(--header-background-colour);
         min-height: 80px;
         font-family: var(--main-font);
+        position: fixed;
+        width: 100%;
       }
       .header a {
+        font-size: 1.5rem;
         text-decoration: none;
         color: var(--link-colour-main);
         color: #ebf5ec;
+        color: var(--text-highlight);
         background-color: #f5efef00;
         transition: background-color 0.25s;
         margin: var(--header-footer-margin);
+        border-radius: var(--very-soft-radius);
+        padding: 2.5px 5px;
+        font-family: var(--main-font);
       }
       .header a:hover {
         background-color: var(--link-hover-bck-main);
@@ -63,6 +74,7 @@ const Header = () => {
       .navigation {
         padding: 30px 10px;
       }
+
       @media screen and (max-width: 650px) {
         .header {
           height: 80px;
@@ -71,14 +83,15 @@ const Header = () => {
           display: inline-block;
           margin: 0;
           padding: 0;
-          position: static;
+          position: fixed;
+          background-color: rgba(255, 251, 251, 0.00);
         }
         button {
           display: block;
           margin: 20px 10px;
           border: none;
           border-radius: 5px;
-          background-color: white;
+          background-color: rgba(255, 251, 251, 0.00);
           width: 40px;
           height: 40px;
           transition: background-color 0.25s;
@@ -90,7 +103,7 @@ const Header = () => {
           border: solid 2px #ce9393;
         }
         .menu-line {
-          border: solid 2px black;
+          border: solid 2px var(--text-highlight);
           border-radius: 10px;
           width: 90%;
           margin: 5px auto;
