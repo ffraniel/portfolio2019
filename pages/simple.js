@@ -69,7 +69,7 @@ function Simple() {
           <video loop autoPlay muted playsInline onCanPlayThrough={()=>{showVideo()}} className={videoShowing ? 'show' : 'hide'}>
             <source src="static/vscodeVideo(compressed).mp4" type="video/mp4" />
           </video>
-          <img className="downward-arrow" src="static/downward.png" alt="downward arrow" onClick={executeScroll} />
+          <h3 className="upgrade">Upgrade Upon The Base Options</h3>
         </section>
         <section className="form-container">
           <h2>Contact us</h2>
@@ -133,6 +133,15 @@ function Simple() {
           padding: var(--section-padding);
           text-align: center;
           color: var(--main-text-colour);
+        }
+        .upgrade {
+          color: white;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 300px;
+          font-size: 2rem;
         }
       `}</style>
     </Layout>
