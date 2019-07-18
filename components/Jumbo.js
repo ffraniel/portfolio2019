@@ -21,9 +21,9 @@ const Jumbo = () => (
       h1 {
         font-size: 2rem;
         display: inline-block;
-        border: solid #f5f0f0 2px;
-        padding: 10px 20px;
-        border-radius: var(--very-soft-radius);
+        border-bottom: solid #f5f0f0 3px;
+        padding: 10px 0px;
+        border-radius: var(--soft-radius);
         margin: 10px;
       }
       .brand-name {

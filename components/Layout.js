@@ -15,7 +15,7 @@ const Layout = props => (
         scroll-behavior: smooth;
       }
       body {
-        background-color: #ffe9f9;
+        background-color: #fbfbf9;
         margin: 0;
         font-size: 18px;
       }

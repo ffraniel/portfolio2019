@@ -29,6 +29,7 @@ const Ecommerce = () => (
       }
       .ecommerce-image-container img {
         width: 400px;
+        padding: 75px;
       }
     `}</style>
   </section>

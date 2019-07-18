@@ -26,6 +26,7 @@ const Wordpress = () => (
       }
       .wordpress-image-container img {
         width: 400px;
+        padding: 50px;
       }
     `}</style>
   </section>
