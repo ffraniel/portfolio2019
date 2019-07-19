@@ -8,7 +8,7 @@ const ProductsHeadline = () => {
           text-align: center;
           color: var(--main-text-colour);
           font-family: var(--main-font);
-          padding: var(--half-section-padding);
+          padding: var(--section-padding);
         }
         .products-headline h1 {
           text-align: center;
