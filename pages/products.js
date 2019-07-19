@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import Table from '../components/Table';
+import TableThree from '../components/TableThree';
 import ProductsHeadline from '../components/ProductsHeadline';
 import Ecommerce from '../components/Ecommerce';
 import Wordpress from '../components/Wordpress';
@@ -10,7 +10,7 @@ function Products() {
   return (
     <Layout headerTrigger={0} >
       <ProductsHeadline />
-      <Table />
+      <TableThree />
       <Retainers />
       <Ecommerce />
       <Wordpress />
