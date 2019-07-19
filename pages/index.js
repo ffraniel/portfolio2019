@@ -1,6 +1,6 @@
 import Layout from '../components/Layout.js';
 import Jumbo from '../components/Jumbo';
-import Table from '../components/Table';
+import TableThree from '../components/TableThree';
 import KeyDetails from '../components/KeyDetails';
 import LeftImageBlock from '../components/LeftImageBlock';
 import HeadingImageBlock from '../components/HeadingImageBlock';
@@ -8,13 +8,14 @@ import GoFaq from '../components/GoFaq';
 import CTA from '../components/CTA';
 
 function Index () {
+
   return (
-    <Layout>
+    <Layout headerTrigger={500}>
       <main className="home">
         <Jumbo />
         <KeyDetails />
         <LeftImageBlock />
-        <Table />
+        <TableThree />
         <HeadingImageBlock />
         {/* <GoFaq /> */}
         <CTA />

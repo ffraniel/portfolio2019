@@ -8,7 +8,7 @@ import Retainers from '../components/Retainers';
 
 function Products() {
   return (
-    <Layout>
+    <Layout headerTrigger={0} >
       <ProductsHeadline />
       <Table />
       <Retainers />

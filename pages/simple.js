@@ -23,7 +23,7 @@ function Simple() {
   const [executeScroll, scrollHtmlAttributes] = useScroll();
 
   return (
-    <Layout>
+    <Layout headerTrigger={260}>
       <section className="simple">
         <section className="product-jumbo">
           <h1>Simple Site</h1>

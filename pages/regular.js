@@ -23,7 +23,7 @@ function Regular () {
   const [executeScroll, scrollHtmlAttributes] = useScroll();
 
   return (
-    <Layout>
+    <Layout headerTrigger={260} >
       <section className="regular">
         <section className="product-jumbo">
           <h1>Regular Site</h1>

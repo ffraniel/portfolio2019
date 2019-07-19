@@ -23,7 +23,7 @@ function Mighty () {
   const [executeScroll, scrollHtmlAttributes] = useScroll();
 
   return (
-    <Layout>
+    <Layout headerTrigger={260}> 
       <section className="mighty">
         <section className="product-jumbo">
           <h1>Mighty Site</h1>

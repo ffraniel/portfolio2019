@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-const Header = () => {
+const Header = (props) => {
+  const { headerSolid } = props;
 
   const [menuStatus, setMenuStatus] = useState(false);
 
@@ -9,14 +10,10 @@ const Header = () => {
     setMenuStatus(!menuStatus);
   };
 
-  const handleScroll = () => {
-    console.log("we scrolling")
-  }
-
   return (
   <>
-    <nav className="header" onScroll={()=> {handleScroll()}}>
-      <button className={menuStatus ? 'active' : ''} onClick={()=>{toggleMenu()}}>
+    <nav className="header" >
+      <button className={menuStatus ? 'active' : ''} onClick={() => toggleMenu()} >
         <div className="menu-line"></div>
         <div className="menu-line"></div>
         <div className="menu-line"></div>
@@ -39,8 +36,8 @@ const Header = () => {
     </nav>
     <style jsx>{`
       .header {
-        background-color: var(--header-background-colour);
-        color: var(--header-background-colour);
+        transition: background-color 0.5s;
+        background: ${headerSolid ? 'rgb(185, 222, 155, 0.98)': 'rgba(0, 0, 0, 0)'};
         min-height: 80px;
         font-family: var(--main-font);
         position: fixed;
@@ -84,7 +81,7 @@ const Header = () => {
           margin: 0;
           padding: 0;
           position: fixed;
-          background-color: rgba(255, 251, 251, 0.00);
+          background: ${headerSolid ? 'rgb(185, 222, 155, 0.98)': 'rgba(0, 0, 0, 0)'};
         }
         button {
           display: block;
@@ -140,7 +137,7 @@ const Header = () => {
       }
     `}</style>
   </>
-);
-    }
+  );
+}
 
 export default Header;
