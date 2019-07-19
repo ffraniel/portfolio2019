@@ -257,10 +257,8 @@ const Table = () => (
           <p>For updates to content, design changes or to help you achieve your SEO goals</p>
         </section>
         <section>
-          <p>
-            <span className="details-heading">Retainers Available</span>
-            Ultimately you need to be happy with the website you receive. If you need further work after these hours are used we have a retainer service available.
-          </p>
+          <span className="details-heading">Retainers Available</span>
+          <p>Ultimately you need to be happy with the website you receive. If you need further work after these hours are used we have a retainer service available.</p>
         </section>
       </section>
     </section>
@@ -272,7 +270,7 @@ const Table = () => (
       padding: var(--half-section-padding);
       display: grid;
       grid-template-columns: minmax(100px, 200px) repeat(3, 150px) minmax(200px, auto);
-      grid-gap: 20px;
+      grid-gap: 10px;
       max-width: 80%;
       margin: 0 auto;
       color: var(--main-text-colour);
