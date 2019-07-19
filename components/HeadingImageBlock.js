@@ -4,8 +4,8 @@ const HeadingImageBlock = () => {
       <section className="heading-image-block--image">
         <h2>Heading image block</h2>
         <img
-          src="https://m.media-amazon.com/images/M/MV5BMWUzN2VkY2ItYmQ4YS00MjFmLWJhZDQtYWY1NWQ2NTA5NDNlXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_.jpg"
-          alt="this image needs changing, clearl"
+          src="static/twins.jpg"
+          alt="this image needs changing, clearly"
         />
       </section>
       <section className="heading-image-block--text">
