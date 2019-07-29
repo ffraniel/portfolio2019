@@ -45,7 +45,7 @@ const TableThree = () => (
         </section>
       </section>
       <section className="mobile-product-box">
-        <h3 className="mob-title">Simple</h3>
+        <h3 className="mob-title">Mighty</h3>
         <h6 className="mob-price">Starting from £1000</h6>
         <section className="mob-details-box">
           <h6>11+ Pages</h6>
