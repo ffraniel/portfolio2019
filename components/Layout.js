@@ -65,7 +65,8 @@ const Layout = props => {
           --very-soft-radius: 2.5px;
           --text-shadow: 1px 1px 3px #424344;
           --button-padding: 10px 20px;
-          --header-footer-margin: 5px 20px;
+          --header-margin: 5px;
+          --footer-margin: 5px 20px;
           --double-section-padding: 160px 0;
           --section-padding: 120px 0;
           --half-section-padding: 60px 0;
