@@ -33,25 +33,32 @@ const Header = (props) => {
         </Link> */}
         <a onClick={()=>{toggleMenu()}} className="close-mob-nav">x</a>
       </section>
+      <h1 className="header-title">Fran the Web Dev</h1>
     </nav>
     <style jsx>{`
       .header {
         transition: background-color 0.5s;
-        background: ${headerSolid ? 'rgb(185, 222, 155, 0.98)': 'rgba(0, 0, 0, 0)'};
-        min-height: 80px;
+        // background: ${headerSolid ? 'rgb(185, 222, 155, 1)': 'rgba(0, 0, 0, 0)'};
+        // background: ${headerSolid ? '#a6b8e4': 'rgba(0, 0, 0, 0)'};
+        background: ${headerSolid ? 'white': 'rgba(0, 0, 0, 0)'};
+        height: 50px;
         font-family: var(--main-font);
         position: fixed;
         width: 100%;
+        display: flex;
+        z-index: 2;
       }
       .header a {
         font-size: 1.5rem;
         text-decoration: none;
-        color: var(--link-colour-main);
-        color: #ebf5ec;
-        color: var(--text-highlight);
+        // color: var(--link-colour-main);
+        // color: ${headerSolid ? '#fde1e6': '#fde1e6'};
+        color: ${headerSolid ? 'blue': '#fde1e6'};
         background-color: #f5efef00;
         transition: background-color 0.25s;
-        margin: var(--header-footer-margin);
+        margin: var(--header-margin);
+        position: relative;
+        line-height: 50px;
         border-radius: var(--very-soft-radius);
         padding: 2.5px 5px;
         font-family: var(--main-font);
@@ -68,29 +75,55 @@ const Header = (props) => {
       .close-mob-nav {
         display: none;   
       }
+      
       .navigation {
-        padding: 30px 10px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.25fr 0.25fr 1.5fr ;
+        border: solid red 1px;
+      }
+
+      .navigation > * {
+        border: solid green 2px;
+      }
+
+      .navigation a {
+        text-align: center;
+      }
+
+      .header-title {
+        display: block;
+        line-height: 50px;
+        margin: var(--header-margin);
+        position: relative;
+        padding: 2.5px 5px;
+        font-size: 1.5rem;
+        text-align: right;
       }
 
       @media screen and (max-width: 650px) {
         .header {
-          height: 80px;
+          height: 50px;
           width: 100%;
           border: none;
           display: inline-block;
+          border:solid green 2px;
           margin: 0;
           padding: 0;
           position: fixed;
           background: ${headerSolid ? 'rgb(185, 222, 155, 0.98)': 'rgba(0, 0, 0, 0)'};
         }
+
+
+
         button {
           display: block;
-          margin: 20px 10px;
+          line-height: 50px;
           border: none;
           border-radius: 5px;
           background-color: rgba(255, 251, 251, 0.00);
-          width: 40px;
-          height: 40px;
+          width: 50px;
+          height: 50px;
           transition: background-color 0.25s;
         }
         button:hover {
@@ -102,7 +135,7 @@ const Header = (props) => {
         .menu-line {
           border: solid 2px var(--text-highlight);
           border-radius: 10px;
-          width: 90%;
+          width: 60%;
           margin: 5px auto;
         }
         .header a {

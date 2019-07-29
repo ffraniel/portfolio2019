@@ -2,22 +2,22 @@ const KeyDetails = () => (
   <section className="details">
     <section className="details-box">
       <h3>section heading</h3>
-      <img src="https://img.icons8.com/windows/96/000000/web-design.png" alt="icon"></img>
+      <img src="static/web-design.png" alt="icon" />
       <p>More supporting text and the details herein</p>
     </section>
     <section className="details-box">
       <h3>section heading</h3>
-      <img src="https://img.icons8.com/windows/96/000000/web-design.png" alt="icon"></img>
+      <img src="static/search.png" alt="icon" />
       <p>More supporting text yet different seperate points of note and interest</p>
     </section>
     <section className="details-box">
       <h3>section heading</h3>
-      <img src="https://img.icons8.com/windows/96/000000/web-design.png" alt="icon"></img>
+      <img src="https://img.icons8.com/windows/96/000000/web-design.png" alt="icon" />
       <p>More supporting text, i qwish i had used loren impsen here, or however it is spelt</p>
     </section>
     <section className="details-box">
       <h3>section heading</h3>
-      <img src="https://img.icons8.com/windows/96/000000/web-design.png" alt="icon"></img>
+      <img src="https://img.icons8.com/windows/96/000000/web-design.png" alt="icon" />
       <p>More supporting text, i am totally out of bespoke filler text</p>
     </section>
     <style jsx>{`
